@@ -1,0 +1,172 @@
+nav {
+  background-color: rgba(173, 216, 230, 0.5);
+  color: black;
+  border: 150px;
+  margin: 0px;
+  padding: 0px;
+  font-size: 16pt;
+  width: 100%;
+  position: sticky;
+  display: inline-block;
+  justify-content: flex-end;
+  height: 18vh;
+  padding-left: 0%;
+  @media only screen and (max-width: 600px) {
+    body {
+      background-color: lightblue;
+    }
+  }
+
+}
+
+.Title {
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  color: blue;
+  font-style: italic;
+  border: 0px;
+  padding-right: 0px;
+  margin-inline-start: 0;
+  position: relative;
+}
+
+li {
+  display: inline;
+  list-style-type: none;
+  padding: 0px;
+  color: black;
+}
+
+nav a {
+  color: white;
+  text-decoration:solid;
+  padding: 22px 16px;
+}
+
+.links:hover {
+  background-color: lightskyblue;
+  color: blueviolet;
+
+}
+
+.card {
+  border: 1px solid black;
+  background-color: rgba(173, 216, 230, 0.5);
+  padding: 25px;
+  border-radius: 5px;
+  width: 300px;
+  margin: 5px;
+}
+
+.card-title {
+  background-color: lightblue;
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 0px;
+  background-color: antiquewhite;
+  text-align: center;
+}
+
+body {
+  font-family: "Courier New", Courier, monospace;
+  background-color: antiquewhite;
+  max-height: fit-content;
+  background-image: url(shop.jpg);
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-attachment: fixed;
+  background-size: cover;
+  
+}
+
+.card-text {
+  background-color: antiquewhite;
+}
+
+.card-btn {
+  border: 1px solid black;
+  border-radius: 5px;
+  width: 100px;
+  height: 30px;
+  font-family: "Courier New", Courier, monospace;
+}
+
+.card-btn:hover {
+  background-color: lightblue;
+  color: beige;
+}
+
+.inline-cards {
+  display: inline-block;
+  margin: auto;
+  width: fit-content;
+}
+
+.footer {
+  background-color: rgba(173, 216, 230, 0.5);
+  color: lightcoral;
+  width: 100%;
+  position: fixed;
+  bottom: 0;
+  margin-bottom: 0;
+  padding: 0px;
+  padding-bottom: 0;
+  padding-top: 0;
+  background-size: cover;
+  font-size: medium;
+  font-style: normal;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  height:10vh;
+  background-size: cover;
+  height: 10vh;
+  margin-bottom:0%;
+  margin-top: 0%;
+  justify-content: space-between;
+  align-items: flex;
+  margin: auto;
+}
+
+table {
+  margin:0cap;
+  padding:0cap
+}
+
+li {
+  display: inline;
+  padding: 5px;
+  list-style-type: none;
+}
+
+td {
+  padding-right: 100px;
+}
+
+.logo {
+  width: 60x;
+  text-decoration: none;
+  padding: 10vh;
+  height:60px;
+  padding-top: 20%;
+  padding-bottom: 20%;
+}
+
+.icon {
+  background-color: white;
+  font-size: 0;
+  width: 25pxx;
+  display:inline-block;
+  list-style-type: none;
+  height: 25px;
+  padding-left: 0;
+  margin-top: auto;
+  
+}
+
+li{
+
+    display: inline;
+    list-style-position: inside;
+}
+

@@ -1,0 +1,30 @@
+.form-div {
+    border: 1px solid black;
+    border-radius: 5px;
+    padding: 20px;
+    background-color: violet;
+    width: max-content;
+    margin: auto;
+    
+    
+}
+
+h1{
+
+margin-top: 0px;
+
+}
+
+#register {
+    background-color: lightblue;
+    border-radius: 5px;
+    width: 100px;
+
+}
+
+#register:hover{
+    background-color: aqua;
+    width: 110px;
+    transition: width 0.5ps;
+
+}
